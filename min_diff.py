@@ -4,7 +4,7 @@ import math
 def getInput(n_lines):
     print("Input lines: ", file=sys.stderr)
     input_lines = []
-    for line in range(n_lines):
+    for _ in range(n_lines):
         new_line = int(input())
         input_lines.append(new_line)
         print(new_line, file=sys.stderr)
